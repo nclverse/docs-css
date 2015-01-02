@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  color: #25274B; }
+
+ul, li {
+  list-style: none; }
+
+section.content {
+  width: 960px;
+  margin: 0 auto;
+  display: flex; }
+
+header#main-header {
+  text-align: center;
+  padding: 2em 0; }
+  header#main-header em {
+    font-weight: bold;
+    font-style: normal;
+    color: white; }
+
+aside#sidebar {
+  width: 15em;
+  padding-bottom: 2em;
+  background: #EEEEF1; }
+  aside#sidebar div.main-container > header {
+    opacity: 0.66;
+    text-transform: uppercase;
+    margin: 1em 2em 0em 2em;
+    padding: 1em 0em;
+    border-bottom: 1px solid rgba(37, 39, 75, 0.05);
+    font-size: 0.75em; }
+  aside#sidebar div.main-container header.app-title {
+    margin: 1em 2em 0em 1.5em; }
+  aside#sidebar div a {
+    font-size: 0.65em;
+    display: block;
+    padding: 0.45em 3em;
+    font-weight: normal;
+    color: #565877;
+    text-decoration: none; }
+    aside#sidebar div a:hover {
+      color: white;
+      background: #565877;
+      background: #6B788B; }
+
+div.read-area {
+  background-color: white;
+  flex: 2;
+  padding: 1em 2em; }
+  div.read-area header {
+    padding-bottom: 1em; }
+  div.read-area h1 {
+    padding: 0.25em 0;
+    border-bottom: 1px solid rgba(37, 39, 75, 0.15); }
+
+ul#apps .app-title {
+  text-transform: capitalize; }
